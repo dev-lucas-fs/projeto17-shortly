@@ -1,0 +1,22 @@
+{
+  "name": "projeto17-shortly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "nanoid": "^3.3.4",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0"
+  }
+}
