@@ -12,4 +12,4 @@ app.use(UrlRoute)
 
 dotenv.config()
 
-app.listen(process.env.PORT)
+app.listen(process.env.PORT || 5000)
